@@ -4,6 +4,7 @@ import Home from '../components/Home'
 import Drives from '../components/Drives'
 import Ricoh from '../components/Ricoh'
 import Imaging from '../components/Imaging'
+import VideoConf from '../components/VideoConf'
 
 const Routes = () =>{
    return(
@@ -12,6 +13,7 @@ const Routes = () =>{
          <Route path='/Drives' component={Drives}/>
          <Route path ='/Imaging' component={Imaging}/>
          <Route path ='/Ricoh' component={Ricoh}/>
+         <Route path ='/Video' component={VideoConf}/>
       </Switch>
    );
 };
