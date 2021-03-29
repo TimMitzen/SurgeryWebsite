@@ -1,5 +1,6 @@
 import React from 'react'
 import {Navbar, Nav, NavDropdown} from 'react-bootstrap'
+
 const NavBar =() =>{
    return(
 <Navbar bg="light" expand="lg">
@@ -9,12 +10,12 @@ const NavBar =() =>{
     <Nav className="mr-auto">
       <Nav.Link href="/Surgery">Home</Nav.Link>
       <Nav.Link href="https://surgery-inventory.herokuapp.com/">Inventory</Nav.Link>
-      <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-        <NavDropdown.Divider />
-        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+      <NavDropdown title="Menu" id="basic-nav-dropdown">
+        <NavDropdown.Item href="/Imaging">Imaging Steps</NavDropdown.Item>
+        <NavDropdown.Item href="/Video">Video Conferencing</NavDropdown.Item>
+        <NavDropdown.Item href="/Drives">Drive Mappings</NavDropdown.Item>
+       
+        <NavDropdown.Item href="/Ricoh">Ricoh</NavDropdown.Item>
       </NavDropdown>
     </Nav>
     
