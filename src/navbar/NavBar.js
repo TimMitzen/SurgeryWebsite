@@ -12,14 +12,13 @@ const NavBar =() =>{
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
-      <Nav.Link href="/SurgeryWebsite/">Home</Nav.Link>
+      <NavDropdown.Item href="/SurgeryWebsite/">Home</NavDropdown.Item>
       <Nav.Link href="https://surgery-inventory.herokuapp.com/">Inventory</Nav.Link>
       
-        <Nav.Link href="/imaging" component ={Imaging} >Imaging Steps</Nav.Link>
-        <Nav.Link href="/video" >Video Conferencing</Nav.Link>
-        <Nav.Link href="/drives">Drive Mappings</Nav.Link>
-       
-        <Nav.Link href="/ricoh">Ricoh</Nav.Link>
+        <NavDropdown.Item href="/imaging" >Imaging Steps</NavDropdown.Item>
+        <NavDropdown.Item href="/video">Video Conferencing</NavDropdown.Item>
+        <NavDropdown.Item href="/drives">Drive Mappings</NavDropdown.Item>
+        <NavDropdown.Item href="/ricoh">Ricoh</NavDropdown.Item>
       
     </Nav>
     
