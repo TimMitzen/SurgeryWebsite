@@ -1,10 +1,12 @@
 import React from 'react'
 import {Navbar, Nav, NavDropdown} from 'react-bootstrap'
-
+import {Link} from 'react-router-dom'
 import Imaging from '../components/Imaging'
 
 const NavBar =() =>{
    return(
+      <div>
+      <Link to = '/imaging'>Images</Link>
 <Navbar bg="light" expand="lg">
   <Navbar.Brand className ='welcome' href="#home">Welcome</Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -22,6 +24,8 @@ const NavBar =() =>{
     </Nav>
     
   </Navbar.Collapse>
-</Navbar>)
+</Navbar>
+</div>
+)
 }
 export default NavBar;
