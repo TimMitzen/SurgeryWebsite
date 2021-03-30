@@ -1,6 +1,6 @@
 import React from 'react'
 import {Navbar, Nav, NavDropdown} from 'react-bootstrap'
-
+import Imaging from '../components/Imaging'
 const NavBar =() =>{
    return(
 <Navbar bg="light" expand="lg">
@@ -11,7 +11,7 @@ const NavBar =() =>{
       <Nav.Link href="/Surgery/">Home</Nav.Link>
       <Nav.Link href="https://surgery-inventory.herokuapp.com/">Inventory</Nav.Link>
       <NavDropdown title="Menu" id="basic-nav-dropdown">
-        <NavDropdown.Item href="/imaging">Imaging Steps</NavDropdown.Item>
+        <NavDropdown.Item href="/imaging" component={Imaging}>Imaging Steps</NavDropdown.Item>
         <NavDropdown.Item href="/video">Video Conferencing</NavDropdown.Item>
         <NavDropdown.Item href="/drives">Drive Mappings</NavDropdown.Item>
        
