@@ -13,7 +13,7 @@ const NavBar =() =>{
       <Nav.Link href="/SurgeryWebsite/">Home</Nav.Link>
       <Nav.Link href="https://surgery-inventory.herokuapp.com/">Inventory</Nav.Link>
       
-        <Nav.Link href="/imaging" >Imaging Steps</Nav.Link>
+        <Nav.Link href="/imaging" component ={Imaging} >Imaging Steps</Nav.Link>
         <Nav.Link href="/video">Video Conferencing</Nav.Link>
         <Nav.Link href="/drives">Drive Mappings</Nav.Link>
        
