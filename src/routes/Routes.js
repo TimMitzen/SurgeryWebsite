@@ -10,7 +10,7 @@ import VideoConf from '../components/VideoConf'
 const Routes = () =>{
    return(
       <Switch>
-         <Route exact path='/Surgery/' component ={Home}/>
+         <Route exact path='/SurgeryWebsite/' component ={Home}/>
          <Route path='/drives' component={Drives}/>
          <Route path ='/imaging' component={Imaging}/>
          <Route path ='/ricoh' component={Ricoh}/>
