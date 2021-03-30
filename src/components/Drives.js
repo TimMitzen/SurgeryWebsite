@@ -3,101 +3,95 @@ import React from 'react'
 const Drives = ()=>{
    return(
       <div>
-         Drives
-Transplant Drives
+  
+         <h2>Drives</h2>
+<li className = 'list'>Transplant Drives</li>
 
-\\UPHSFP10\TransplantDept-HUP$
-
-
-\\UPHSFP11\Psydbase$
+<li className = 'list'>\\UPHSFP10\TransplantDept-HUP$</li>
 
 
-\\UPHSFP10\TRANSNET_HUP$
+<li className = 'list'>\\UPHSFP11\Psydbase$</li>
 
 
-Surgery Drives
-
-\\SURGSERVER1\
+<li className = 'list'>\\UPHSFP10\TRANSNET_HUP$</li>
 
 
-\\UphAPPndc186\Surgery-HUP
+<li className = 'list'>Surgery Drives</li>
+
+<li className = 'list'>\\SURGSERVER1\</li>
+
+<li className = 'list'>\\uphappndc186\surgery-alt</li>
 
 
-\\uphappndc186\surgery-alt
+<li className = 'list'>Urology Drives</li>
+
+<li className = 'list'>\\UphsFP13\SharedData3\HUP\Urology</li>
 
 
-Urology Drives
+<h2>Finance</h2>
 
-\\UphsFP13\SharedData3\HUP\Urology
-
-
-Finance
-
-\\surgserver1\jdisk\Surgadmin\Salaries
+<li className = 'list'>\\surgserver1\jdisk\Surgadmin\Salaries</li>
 
 
-\\surgserver1\jdisk\HDSR Shared Drive
+<li className = 'list'>\\surgserver1\jdisk\HDSR Shared Drive</li>
 
 
-Education
+<h2>Education</h2>
 
-\\surgserver1\jdisk\DSE_office
-
-
-Trauma
-
-\\UPHS.PENNHEALTH.PRV\data\HUP\Trauma\Shared
+<li className = 'list'>\\surgserver1\jdisk\DSE_office</li>
 
 
-Research
+<h2>Trauma</h2>
 
-\\UPHS.PENNHEALTH.PRV\Data\HUP\Surgery\Gorman Lab
-
-
-Plastics Research
-
-\\isilon-surgeryresearch.uphs.pennhealth.prv\PSD
+<li className = 'list'>\\UPHS.PENNHEALTH.PRV\data\HUP\Trauma\Shared</li>
 
 
-Group in AD: Isilon-PlasticSurgeryData
+<h1>Research</h1>
+
+<li className = 'list'>\\UPHS.PENNHEALTH.PRV\Data\HUP\Surgery\Gorman Lab</li>
 
 
-Surgery Research
+<h2>Plastics Research</h2>
 
-\\Isilon-SurgeryResearch\Surgery
-
-
-Group in AD: SurgeryResearch-HUP
+<li className = 'list'>\isilon-surgeryresearch.uphs.pennhealth.prv\PSD
 
 
-Neuology Imaging
-
-\\UPHSFP11\NeuroSurgeryDept-HUP$\NeurosurgeryImaging
+Group in AD: Isilon-PlasticSurgeryData</li>
 
 
-NeuroSurgery Imaging
+<h2>Surgery Research</h2>
 
-\\isilon-surgeryresearch\surgery\Neurosurgery
-
-
-Mirror Plastics Server
-
-Server Name: UPCANFLDDBWN01 IP: 170.166.21.71
+<li className = 'list'>\\Isilon-SurgeryResearch\Surgery
 
 
-Pennmobile apps website
-
-http://mhealth.pennmedicine.org/
+Group in AD: SurgeryResearch-HUP</li>
 
 
-IS website
+<h2>Neuology Imaging</h2>
 
-http://uphsxnet.uphs.upenn.edu/is/
+<li className = 'list'>\\UPHSFP11\NeuroSurgeryDept-HUP$\NeurosurgeryImaging</li>
 
 
-Syngo website
+<h2>NeuroSurgery Imaging</h2>
 
-http://uphsyndypor01/sdportal/ Have to use IE
+<li className = 'list'>\\isilon-surgeryresearch\surgery\Neurosurgery</li>
+
+
+<h2>Mirror Plastics Server</h2>
+
+<li className = 'list'>Server Name: UPCANFLDDBWN01 IP: 170.166.21.71</li>
+
+
+<h2>Pennmobile apps website</h2>
+
+<li className = 'list'>http://mhealth.pennmedicine.org/</li>
+
+
+
+
+<h2>Syngo website</h2>
+
+<li className = 'list'>http://uphsyndypor01/sdportal/ Have to use IE</li>
 
       </div>
    )
