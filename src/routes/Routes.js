@@ -10,10 +10,10 @@ const Routes = () =>{
    return(
       <Switch>
          <Route exact path='/SurgeryWebsite/' component ={Home}/>
-         <Route path='/Drives' component={Drives}/>
-         <Route path ='/Imaging' component={Imaging}/>
-         <Route path ='/Ricoh' component={Ricoh}/>
-         <Route path ='/Video' component={VideoConf}/>
+         <Route path='/drives' component={Drives}/>
+         <Route path ='/imaging' component={Imaging}/>
+         <Route path ='/ricoh' component={Ricoh}/>
+         <Route path ='/video' component={VideoConf}/>
       </Switch>
    );
 };

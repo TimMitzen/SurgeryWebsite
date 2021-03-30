@@ -11,11 +11,11 @@ const NavBar =() =>{
       <Nav.Link href="/SurgeryWebsite/">Home</Nav.Link>
       <Nav.Link href="https://surgery-inventory.herokuapp.com/">Inventory</Nav.Link>
       <NavDropdown title="Menu" id="basic-nav-dropdown">
-        <NavDropdown.Item href="/Imaging">Imaging Steps</NavDropdown.Item>
-        <NavDropdown.Item href="/Video">Video Conferencing</NavDropdown.Item>
-        <NavDropdown.Item href="/Drives">Drive Mappings</NavDropdown.Item>
+        <NavDropdown.Item href="/imaging">Imaging Steps</NavDropdown.Item>
+        <NavDropdown.Item href="/video">Video Conferencing</NavDropdown.Item>
+        <NavDropdown.Item href="/drives">Drive Mappings</NavDropdown.Item>
        
-        <NavDropdown.Item href="/Ricoh">Ricoh</NavDropdown.Item>
+        <NavDropdown.Item href="/ricoh">Ricoh</NavDropdown.Item>
       </NavDropdown>
     </Nav>
     
