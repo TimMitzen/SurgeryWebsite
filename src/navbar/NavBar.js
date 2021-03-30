@@ -6,7 +6,7 @@ import Imaging from '../components/Imaging'
 const NavBar =() =>{
    return(
       <div>
-      <Link to = '/imaging'>Images</Link>
+      <Link to = '/imaging' component ={Imaging}>Images</Link>
 <Navbar bg="light" expand="lg">
   <Navbar.Brand className ='welcome' href="#home">Welcome</Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
