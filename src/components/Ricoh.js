@@ -8,7 +8,7 @@ const Ricoh =  () =>{
          <h2>User Name: Admin Password: leave blank</h2>
 
 
-<li className = 'list'>Grd Founders (Big One) 170.212.71.176</li>
+<li className = 'list'>Grd Founders (Big One) SURG-GFOUND-RICOH1</li>
 
 
 <li className = 'list'>Grd 079 Founders (Small One) 170.212.71.171</li>
@@ -16,7 +16,7 @@ const Ricoh =  () =>{
 
 <li className = 'list'>Grd 079 Founders 170.212.70.42</li>
 
-
+<li className = 'list'>3 PCAM3 in medrec office  SURG-PCAM3-RICOHMEDREC1</li>
 <li className = 'list'>3 PCAM In the back by Amanda 170.166.250.117</li>
 
 
